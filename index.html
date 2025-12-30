@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Linktree - Irfan</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/hanzcode1/LinktreeBuilder@main/style.css"
+    />
+    <script src="https://cdn.jsdelivr.net/gh/hanzcode1/LinktreeBuilder@main/script.js"></script>
+  </head>
+  <body>
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loading">
+      <div class="loading-pixels">
+        <div class="loading-pixel"></div>
+        <div class="loading-pixel"></div>
+        <div class="loading-pixel"></div>
+      </div>
+    </div>
+
+    <!-- Main App Container -->
+    <div id="app"></div>
+
+    <script>
+      Linktree.init({
+        img: "https://img.sanishtech.com/u/231e245aedcc598933cae57777481e7d.jpg",
+        nama: "Irfan",
+        deskripsi: "Mahasiswa Aktif",
+        medsos: [
+          {
+            platform: "instagram",
+            url: "https://www.instagram.com/muzozaa_?igsh=MW1rZ21paGFwaTlkZQ==",
+          },
+          {
+            platform: "whatsapp",
+            url: "https://api.whatsapp.com/send/?phone=83194045154&text&type=phone_number&app_absent=0&wame_ctl=1",
+          },
+          {
+            platform: "tiktok",
+            url: "https://www.tiktok.com/@muzzoo_?_r=1&_t=ZS-92eNaWxNRbu",
+          },
+        ],
+        links: [
+          {
+            text: "portofolio",
+            url: "https://irfanprabowo114-cyber.github.io/irfan-host/?",
+          },
+        ],
+        footer: "2025 | Irfan",
+      });
+    </script>
+  </body>
+</html>
